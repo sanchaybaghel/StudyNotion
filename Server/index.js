@@ -24,7 +24,7 @@ database.connect();
 app.use(cookieParser())
 app.use(
 	cors({
-		origin:"http://localhost:3000"
+		origin:"*"
 	})
 )
 
